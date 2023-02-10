@@ -54,7 +54,7 @@ export const NavBar = () => {
                 <a href="https://github.com/RahuRabh"><img src={navIcon2} alt="" /></a>
                 <a href="https://www.instagram.com/ral.kum/"><img src={navIcon3} alt="" /></a>
               </div>
-              <HashLink to='Contact'>
+              <HashLink to='#Contact'>
               <button onclick={Contact} type="button" className="vvd"><span>Let’s Connect</span></button>
                 {/* <button onClick={Contact} className="vvd"><span>Let’s Connect</span></button> */}
               </HashLink>

@@ -1,17 +1,15 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/header.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-// import { HashLink } from 'react-router-hash-link';
-// import { Contact } from "./Contact";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
-  const [delta, setDelta] = useState(200 - Math.random() * 100);
+  const [delta, setDelta] = useState(400 - Math.random() * 100);
   const [index, setIndex] = useState(1);
   const toRotate = ["Student", "Engineer", "Web Developer", "Hodophile"];
   const period = 4000;
@@ -57,8 +55,8 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to my Profile</span>
-                <h1>{`Hi! I'm Rahul`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Student", "Engineer", "Web Developer", "Hodophile" ]'><span className="wrap">{text}</span></span></h1>
+                <span className="tagline">Welcome to my WORLD</span>
+                <h1>{`Hi! I'm Rahul`} <span className="txt-rotate" dataPeriod="2000" data-rotate='[ "Student", "Engineer", "Web Developer", "Hodophile" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Hi! I'm a recent computer science graduate from Veltech University. I have worked on many NodeJs, React based project while learning Full Stack Development. I have neatly documented and stored my code collections on GitHub. I am currently seeking a position as a Web Developer.</p>
                   <button onClick="./Contact">Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
