@@ -1,23 +1,32 @@
-# Personal Portfolio Website in React
+# Portfolio Website
+
+This is a personal portfolio website designed to show my projects, skills with a contact form where anyone interested can reaach out to me.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<img width="1266" alt="Screen Shot 2022-06-19 at 2 18 18 PM" src="https://user-images.githubusercontent.com/50160672/174933373-1ba6cadf-1c9a-48c3-aa58-984d0bd62d82.png">
 
-Built using:
+## Screenshot
+
+![image](https://user-images.githubusercontent.com/63224718/218187106-dd1e8011-8a97-4a67-bdd3-3d082c7db65d.png)
+
+
+### Built using:
 
 - Front-end library: React
 - CSS framework: React-bootstrap
 - CSS animations library: Animate.css
 
-In the /personal-portfolio, you can run:
+## To Run the app:
 
-### `npm start`
+> ```npm install```   This will install all required dependencies.
+
+> `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
+
 You may also see any lint errors in the console.
 
 ### `npm test`
